@@ -1,13 +1,13 @@
-Lab 1 - Requirements Engineering & UML Use-Case Modelling
+**Lab 1 - Requirements Engineering & UML Use-Case Modelling**
 
-Problem Statement #56: Peer Skill Exchange & Mentorship Network
+**Problem Statement #56: Peer Skill Exchange & Mentorship Network**
 
 A time-banking platform where members swap skills (like 1 hour of Python
 tutoring for 1 hour of guitar lessons) and rate each other after sessions.
 
-Actors: Learner Member, Skill Mentor
+**Actors:** Learner Member, Skill Mentor
 
-Files:
+**Files:**
 
 Lab1_Problem56_Requirements_Table_FINAL.docx -> 5 functional and 2 non-functional requirements
 
@@ -19,23 +19,31 @@ Alternate_Flow.docx -> Alternate flow A1
 
 Lab1_Problem56_Alternate_Flow_UML_Activity_Diagram.pdf -> Activity diagram for A1
 
-Use cases:
+**Use cases:**
 
 UC-01 Register Profile
+
 UC-02 Browse Skills
+
 UC-03 Book Skill Session
+
 UC-04 Conduct Session
+
 UC-05 Verify Session Completion
+
 UC-06 Check Time-Credit Balance
+
 UC-07 Transfer Time Credits
+
 UC-08 Submit Feedback
 
-Relationships in the diagram:
+**Relationships in the diagram:**
 
 include: UC-03 Book Skill Session includes UC-06 Check Time-Credit Balance
+
 extend: UC-05 Verify Session Completion extends UC-04 Conduct Session
 
-Author:
+**Author:**
 
 Vaibhav Raj Warrier, PES1UG24CS640
 PES University, Dept. of CSE, Software Engineering Lab 1
